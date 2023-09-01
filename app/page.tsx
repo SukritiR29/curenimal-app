@@ -12,7 +12,9 @@ export default function Home() {
         <Link href="/help">
         <button className="btn btn-accent text-neutral-focus mr-5">Help now</button>
         </Link>
+        <Link href="/lostFound">
         <button className="btn btn-accent text-neutral-focus ml-5">Lost and Found</button>
+        </Link>
       </div>
     </div>
   </div>
