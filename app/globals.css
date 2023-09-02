@@ -28,5 +28,14 @@ body {
     
 }
 
+.hide-scrollbar {
+  overflow-x: scroll;
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* Internet Explorer and Microsoft Edge */
+}
+.hide-scrollbar::-webkit-scrollbar {
+  display: none; /* WebKit-based browsers (Chrome, Safari, etc.) */
+}
+
 
 
