@@ -1,11 +1,16 @@
+"use client";
 import React from 'react'
 import Link from 'next/link'
-import firstaid from '../components/firstaid'
 import Cards from '../components/cards'
+import { useState } from 'react'
 
 
 const page: React.FC = () => {
  
+  const [showFirstAid, setShowFirstAid] = useState(false);
+  const handleFirstAid = () => {
+    setShowFirstAid(true)
+  }
 
     
   return (
@@ -24,7 +29,8 @@ const page: React.FC = () => {
                 Who are you helping today?</h1>
         </div>
         <div className='z-40'>
-            <Cards />
+            <Cards onButtonClicked={handleFirstAid} />
+           
         </div>
         </div>
         <footer className="footer footer-center p-4 bg-bgColor text-base-content">

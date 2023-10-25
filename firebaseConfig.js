@@ -1,7 +1,6 @@
 
 import { initializeApp } from "firebase/app";
-import { getAnalytics } from "firebase/analytics";
-import { getFirestore, collection, getDoc, doc, snapshotEqual } from "firebase/firestore"
+import { getFirestore } from "firebase/firestore"
 
 const firebaseConfig = {
   apiKey: "AIzaSyAmEN37SlmRFYxC86VPcuf4YF2mr8NjS6E",
@@ -14,25 +13,5 @@ const firebaseConfig = {
 };
 
 
-const app = initializeApp(firebaseConfig);
-const analytics = getAnalytics(app);
-const db = getFirestore(app);
-
-// Specify the document you want to fetch by its path or reference
-const docRef = doc(db, 'curenimalData', 'bird-bb');
-
-// Fetch the document data
-getDoc(docRef)
-  .then((snapshot) => {
-    if (snapshot.exists()) {
-      const data = snapshot.data();
-      console.log(data);
-    } else {
-      console.log('Document does not exist');
-    }
-  })
-  .catch((error) => {
-    console.error("Error getting document:", error);
-  });
-
-  export default db;
+export const app = initializeApp(firebaseConfig);
+export const db = getFirestore(app);

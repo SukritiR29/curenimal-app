@@ -1,16 +1,26 @@
 "use client";
 
 import React from "react";
+import { useState } from "react";
+import { animalData } from "@/data";
+import { Route } from "next";
+import AnimalData from "./AnimalData";
 
+interface Props {
+  onButtonClicked: (animal: string, problem: string) => void;
+}
+const Cards: React.FC<Props> = ({ onButtonClicked }) => {
+  const [selectAnimal, setSelectAnimal] = useState("Dog");
+  const [selectProblem, setSelectProblem] = useState("BrokenBone");
 
-const Cards = () => {
-    
-
-    const handleClick = () => {
-        console.log("Clicked");
-
-    
+  const handleProblemChange = (animal: string, problem: string) => {
+    setSelectAnimal(animal);
+    setSelectProblem(problem);
+    onButtonClicked(animal, problem);
   };
+
+  const animalDataIndex = animalData as Record<string, Record<string, string>>;
+
   return (
     <div>
       <div className="animals flex col-1 overflow-x-auto pb-40 hide-scrollbar">
@@ -26,19 +36,19 @@ const Cards = () => {
                   Help type
                 </summary>
                 <ul className="p-2 shadow text-stone-800 menu dropdown-content z-[1] bg-base-100 rounded-box w-52 ">
-                  <li onClick={handleClick}>
+                  <li onClick={() => handleProblemChange("Dog", "BrokenBone")}>
                     <a>Broken Bone</a>
                   </li>
-                  <li>
+                  <li onClick={() => handleProblemChange("Dog", "Skin")}>
                     <a>Skin problem</a>
                   </li>
-                  <li>
+                  <li onClick={() => handleProblemChange("Dog", "Wounded")}>
                     <a>wounded</a>
                   </li>
-                  <li>
+                  <li onClick={() => handleProblemChange("Dog", "Stomach")}>
                     <a>Stomach infection</a>
                   </li>
-                  <li>
+                  <li onClick={() => handleProblemChange("Dog", "NewBorn")}>
                     <a>New born care</a>
                   </li>
                 </ul>
@@ -398,6 +408,14 @@ const Cards = () => {
             </div>
           </div>
         </div>
+      </div>
+
+      <div>
+        <AnimalData
+          selectAnimal={selectAnimal}
+          selectProblem={selectProblem}
+          data={animalData}
+        />
       </div>
     </div>
   );
