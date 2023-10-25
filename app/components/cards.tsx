@@ -6,12 +6,15 @@ import { animalData } from "@/data";
 import { Route } from "next";
 import AnimalData from "./AnimalData";
 
+
+
 interface Props {
   onButtonClicked: (animal: string, problem: string) => void;
 }
 const Cards: React.FC<Props> = ({ onButtonClicked }) => {
-  const [selectAnimal, setSelectAnimal] = useState("Dog");
-  const [selectProblem, setSelectProblem] = useState("BrokenBone");
+  const [selectAnimal, setSelectAnimal] = useState<string | null>(null);
+  const [selectProblem, setSelectProblem] = useState<string | null>(null);
+  
 
   const handleProblemChange = (animal: string, problem: string) => {
     setSelectAnimal(animal);
@@ -19,7 +22,7 @@ const Cards: React.FC<Props> = ({ onButtonClicked }) => {
     onButtonClicked(animal, problem);
   };
 
-  const animalDataIndex = animalData as Record<string, Record<string, string>>;
+  const animalNames = Object.keys(animalData);
 
   return (
     <div>
@@ -48,7 +51,7 @@ const Cards: React.FC<Props> = ({ onButtonClicked }) => {
                   <li onClick={() => handleProblemChange("Dog", "Stomach")}>
                     <a>Stomach infection</a>
                   </li>
-                  <li onClick={() => handleProblemChange("Dog", "NewBorn")}>
+                  <li onClick={() => handleProblemChange("Dog", "Skin")}>
                     <a>New born care</a>
                   </li>
                 </ul>
@@ -68,7 +71,7 @@ const Cards: React.FC<Props> = ({ onButtonClicked }) => {
                   Help type
                 </summary>
                 <ul className="p-2 shadow text-stone-800 menu dropdown-content z-[1] bg-base-100 rounded-box w-52">
-                  <li>
+                  <li  onClick={() => handleProblemChange("Cat", "BrokenBone")}>
                     <a>Broken Bone</a>
                   </li>
                   <li>
@@ -411,11 +414,15 @@ const Cards: React.FC<Props> = ({ onButtonClicked }) => {
       </div>
 
       <div>
-        <AnimalData
+
+        {selectAnimal && selectProblem && (
+          <AnimalData
           selectAnimal={selectAnimal}
           selectProblem={selectProblem}
           data={animalData}
         />
+        )}
+        
       </div>
     </div>
   );
