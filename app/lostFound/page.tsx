@@ -1,7 +1,6 @@
 import React from 'react'
-import Link from 'next/link'
 
-const page = () => {
+const LostFound = () => {
   return (
     <div className='bg-bgColor h-screen'>
       <h1>Lost and Found</h1>
@@ -9,4 +8,4 @@ const page = () => {
   )
 }
 
-export default page
+export default  LostFound;
