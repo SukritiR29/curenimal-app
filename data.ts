@@ -12,15 +12,15 @@ export const animalData = {
       "Step 3: Immobilize the affected area with a splint if possible.",
       "Step 4: Seek veterinary help immediately.",
     ],
-    NewBorn: [["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "]],
+    NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
-    Wounded: "Step 1. Make sure your patient is calm.",
+    Wounded: ["Step 1. Make sure your patient is calm."],
     
   },
 
   Cat: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone:["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
@@ -28,7 +28,7 @@ export const animalData = {
   },
 
   Cow: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
@@ -36,7 +36,7 @@ export const animalData = {
   },
 
   Bird: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
@@ -44,7 +44,7 @@ export const animalData = {
   },
 
   Squirrel: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
@@ -52,7 +52,7 @@ export const animalData = {
   },
 
   Monkey: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
@@ -60,7 +60,7 @@ export const animalData = {
   },
 
   Goat: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
@@ -68,7 +68,7 @@ export const animalData = {
   },
 
   Sheep: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
@@ -76,7 +76,7 @@ export const animalData = {
   },
 
   Pig: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
@@ -84,7 +84,7 @@ export const animalData = {
   },
 
   Elephant: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
@@ -92,7 +92,7 @@ export const animalData = {
   },
 
   Rabbit: {
-    BrokenBone: "vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv",
+    BrokenBone: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv"],
     NewBorn: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Skin: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
     Stomach: ["vrvojebv rfirng r3rofprnge rvrepvineverv; pvienv "],
