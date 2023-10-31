@@ -1,6 +1,10 @@
+"use client"
 import Link from 'next/link';
 
+
+
 export default function Home() {
+
   const backgroundImageUrl = 'url("/assests/curenimalbg.png")';
   return (
   <div className="hero min-h-screen" style={{ backgroundImage: backgroundImageUrl }}>
