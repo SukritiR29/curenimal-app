@@ -16,7 +16,7 @@ const page: React.FC = () => {
   return (
     <div>
      <div className='bg-bgColor'>
-        <h1 className='pt-2 pb-2 font-mono font-black text-3xl align-center text-stone-100 text-center'>YOU CAN'T BUT LOVE,</h1>
+        <h1 className='pt-2 pb-2 font-mono font-black text-3xl align-center text-stone-100 text-center'>YOU CAN'T BUY LOVE,</h1>
         <h1 className='font-semibold font-mono text-3xl align-center text-stone-100 text-center'>BUT YOU CAN <b className='text-lime-600 text-3xl'>RESCUE</b> IT!</h1>
         <div className='flex justify-center pt-8'>
        
