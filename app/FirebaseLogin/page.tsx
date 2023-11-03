@@ -1,9 +1,10 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { auth, provider } from '@/firebaseConfig';
-import { signInWithPopup } from 'firebase/auth';
+import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
+import ImageUpload from '../components/ImageUpload';
 
 const Signin = () => {
   const [value, setValue] = useState('');
@@ -19,6 +20,10 @@ const Signin = () => {
         } else {
           setValue('');
         }
+
+        const credentials = GoogleAuthProvider.credentialFromResult(data);
+        const token = credentials?.accessToken;
+        const user = data.user;
       })
       .catch((error) => {
         console.error('Error signing in:', error);
