@@ -39,7 +39,7 @@ const AnimalData: React.FC<AnimalDataProps> = ({selectAnimal, selectProblem, dat
           )}
           </p>
 
-        <Link href="">
+        <Link href="/hospital">
         <button className="btn btn-accent text-neutral-focus mr-5 ml-2">Hospitals Near Me</button>
         </Link>
         </div>

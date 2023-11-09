@@ -27,8 +27,7 @@ export default function RootLayout({
                 </ul>
                 </details>
             </li>
-            <li><Link href="/hospital">Hospitals</Link></li>
-           
+            <li><Link href="/help">Home</Link></li>
             </ul>
         </div>
         </div>

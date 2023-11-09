@@ -3,7 +3,6 @@ import React from 'react'
 import { useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import ImageUpload from '@/app/components/ImageUpload'
-import ImageGallery from '../components/feed'
 
 const LostFound = () => {
 
@@ -17,7 +16,7 @@ const LostFound = () => {
     }, [])
   return (
     <div>
-    <div className='bg-bgColor h-max'>
+    <div className='bg-base-100 h-max'>
        <h1 className='pt-2 pb-2 font-mono font-black text-3xl align-center text-stone-100 text-center'>LOST AND FOUND</h1>
        <h1 className='font-semibold font-mono text-xl align-center text-stone-500 text-center'>Upload pictures of lost, found or up for adoption pets. <br/> Make sure to enter your contact details to help the helper reach you.</h1>
        <div className='flex justify-center pt-8'>
@@ -29,10 +28,10 @@ const LostFound = () => {
        </div>
        <div>
        <ImageUpload/>
-       
+
        </div>
        </div>
-       <footer className="footer footer-center p-4 bg-bgColor text-base-content">
+       <footer className="footer footer-center p-4 bg-base-100 text-base-content">
        <div>
            <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
        </div>
