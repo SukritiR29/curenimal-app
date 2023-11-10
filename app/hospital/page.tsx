@@ -7,7 +7,7 @@ const Hospital: React.FC = () => {
     <div className='bg-base-100'>
       <h1 className='pt-5 ml-20 pb-2 font-mono font-black text-4xl text-red-900'>List of Hospitals</h1>
       <p className='ml-20 mb-5 text-red-900'>Please note that this is just a dummy data being the initial stage of this project's development.</p>
-      <div className="flex flex-wrap -mx-2 ml-20 mr-10">
+      <div className="flex flex-wrap -mx-2 ml-20 mr-10 gap-10">
       {hospitals.map((hospital, index) => (
         <div key={index} className="w-1/4 p-2">
           <div className="bg-secondary text-neutral p-2 pr-1 w-80 rounded-md">

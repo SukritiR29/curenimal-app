@@ -23,7 +23,7 @@ export default function RootLayout({
                 </summary>
                 <ul className="p-1 indent-1">
                     <li><Link href="/lostFound">Report_Missing</Link></li>
-                    <li><a>About us</a></li>
+                    <li><Link href='/about'>About</Link></li>
                 </ul>
                 </details>
             </li>

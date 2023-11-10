@@ -6,6 +6,8 @@ import ImageUpload from '@/app/components/ImageUpload'
 
 const LostFound = () => {
 
+    const backgroundImageUrl = 'url("/assests/curenimalbg.png")';
+
     const router = useRouter();
 
     useEffect(() => {
@@ -15,15 +17,15 @@ const LostFound = () => {
         }
     }, [])
   return (
-    <div>
-    <div className='bg-base-100 h-max'>
-       <h1 className='pt-2 pb-2 font-mono font-black text-3xl align-center text-red-900 text-center'>LOST AND FOUND</h1>
-       <h1 className='font-semibold font-mono text-xl align-center text-accent text-center'>Report pictures of lost, found or up for adoption pets. <br/> Make sure to enter your contact details to help the helper reach you.</h1>
+    <div  className="hero min-h-screen" style={{ backgroundImage: backgroundImageUrl }}>
+    <div className='hero-overlay bg-gradient-to-b from-neutral from-5%'>
+       <h1 className='pt-2 pb-2 font-mono font-black text-3xl align-center text-base-100 text-center'>LOST AND FOUND</h1>
+       <h1 className='font-semibold font-mono text-xl align-center text-primary text-center'>Report pictures of lost, found or up for adoption pets. <br/> Make sure to enter your contact details to help the helper reach you.</h1>
        <div className='flex justify-center pt-8'>
       
        </div>
        <div>
-           <h1 className='pt-5 pl-10 pb-5 font-mono font-black text-2xl text-red-900'>
+           <h1 className='pt-5 pl-10 pb-5 font-mono font-black text-2xl text-base-100'>
                Who are you helping today?</h1>
        </div>
        <div>
@@ -31,12 +33,6 @@ const LostFound = () => {
 
        </div>
        </div>
-       <footer className="footer footer-center p-4 pt-20 bg-base-100 text-base-content">
-       <div>
-           <p>@ Coded and Designed by Sukriti Rajora</p>
-       </div>
-       </footer>
-
        </div>
   )
 }
