@@ -166,17 +166,21 @@ export const animalData = {
       },
       {
         name: "New Born",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Identify whether the bird is a nestling (still in the nest) or a fledgling (has left the nest but is not fully independent). This information will help guide your care.",
+        "Step 2: If the bird is a fledgling, observe it from a distance. Many fledglings are learning to fly and are still under the care of their parents. Interfering unnecessarily can disrupt this natural process.",
+        "Step 3: If the bird is in immediate danger (e.g., from predators, traffic, pets), gently move it to a safer location nearby.",
+        "Step 4: If you find a nestling, try to return it to its nest. If the nest has fallen, you can fashion a makeshift nest using a small container (e.g., a margarine tub) lined with soft materials. Do not attempt to feed the bird without proper guidance, as their dietary needs vary based on species.",]
       },
       {
         name: "Stomach Infection",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: If you have multiple birds, isolate the affected bird to prevent the potential spread of infection. Place the bird in a quiet, warm, and draft-free area. Ensure it has access to a comfortable perch and a nesting box.",
+        "Step 2: Ensure the bird has access to clean and fresh water. Proper hydration is crucial for birds, especially when dealing with illnesses.",
+        "Step 3: Monitor the bird's behavior closely. Take note of any changes in eating habits, droppings, or signs of distress.",
+        "Step 4: Refrain from administering any over-the-counter medications or antibiotics without the guidance of a veterinarian. Improper use of medications can be harmful to birds.",
+        "Step 5: If the bird appears cold or is showing signs of lethargy, provide additional warmth. Use a heat lamp or a heating pad set on low, making sure there is a cooler area for the bird to move to if needed.",
+        "Step 6: Consult with a veterinarian for appropriate dietary recommendations. In some cases, a vet may recommend a specific diet or supplements to support the bird's recovery.",
+        "Step 7: Keep the bird warm, especially if it is a nestling. Use a heating pad set on low or a warm water bottle wrapped in a cloth. Place it in a box with the bird, ensuring that the bird can move away from the heat source if needed.",
+        "Step 8: If the bird is a fledgling, and it is safe to do so, you can place it on a nearby branch or elevated surface to facilitate a potential reunion with its parents."]
       },
     ]
   },
@@ -271,38 +275,44 @@ export const animalData = {
     problems: [
       {
         name: "Broken Bone",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Prioritize your safety and avoid approaching the monkey directly, especially if it's a wild or unfamiliar animal. Wild monkeys can be unpredictable and may react defensively when injured.",
+        "Step 2:Maintain a safe distance to prevent further stress to the monkey and reduce the risk of injury to yourself. If the injured monkey is in a public area or belongs to a wildlife sanctuary or zoo, contact the appropriate authorities, such as animal control or wildlife rescue services. ",
+        "Step 3: Avoid getting too close to the monkey, especially if it appears agitated or distressed. Injured animals may react defensively, and a monkey with a broken bone may be in pain.",
+        "Step 4: Refrain from attempting to immobilize or treat the broken bone directly, as this may cause further harm to the animal. Avoid giving food or water to the injured monkey unless advised to do so by a professional. In some cases, the monkey may require fasting before veterinary examination or treatment.",
+        "Step 5: If you need to contact professional help, be prepared to provide information about the monkey's location, behavior, and any visible injuries. This will assist rescuers in assessing the situation."]
       },
       {
         name: "Skin Problem",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Avoid direct contact with the monkey to minimize stress and potential risks. Observe the skin problem from a safe distance.",
+        "Step 2:If the monkey is part of a group, consider isolating it to prevent the spread of any potential contagious skin conditions.",
+        "Step 3: Refrain from attempting to diagnose or treat the skin problem without professional guidance. Monkey skin conditions can have various causes, including infections, allergies, or parasites.",
+        "Step 4: Ensure the monkey's living area is clean, well-ventilated, and free from potential irritants. Maintain an appropriate temperature and humidity level.",
+        "Step 5: Ensure the monkey is receiving a balanced and nutritious diet to support overall health and potential healing.",
+        "Step 6: Avoid applying any ointments, creams, or medications without professional guidance, as some substances may be harmful. If the monkey is scratching or exhibiting self-harming behavior, consult with the veterinarian for advice on preventing further injury."]
       },
       {
         name: "Wounded",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Approach the wounded monkey with extreme caution. Keep a safe distance to avoid potential aggression or bites. Avoid direct contact with the wounded monkey unless you have the necessary training and protective gear. Injured or distressed animals can be unpredictable and may become aggressive.",
+        "Step 2:Maintain a calm and quiet environment. Excessive noise and stress can exacerbate the monkey's condition. ",
+        "Step 3: Avoid attempting to treat the wound yourself. Applying first aid without proper knowledge and protective measures may result in injury or disease transmission.",
+        "Step 4: If you need to contain the monkey, use barriers such as nets or cages designed for wildlife capture. Do not attempt to handle the monkey directly.",
+        "Step 5: When professional help arrives, provide information about the monkey's behavior, the nature of the wound, and any other relevant details."]
       },
       {
         name: "New Born",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1:In many places, it is illegal to keep monkeys as pets without the proper permits. Contact local wildlife authorities or a licensed wildlife rehabilitator immediately for guidance.",
+        "Step 2: Monkeys have complex social and dietary needs that are challenging to meet in a home setting. Raising a monkey as a pet can lead to behavioral and health issues for the animal.",
+        "Step 3: If you encounter a baby monkey in the wild, keep a safe distance and observe from afar. The mother may be nearby, and human interference can cause more harm.",
+        "Step 4: If the baby monkey appears to be abandoned and in distress, provide a warm, quiet environment. Use a soft cloth or blanket to create a nest-like space.",
+        "Step 5: Refrain from feeding the monkey without proper guidance. Monkeys have specific dietary needs that are challenging to replicate without expert knowledge."]
       },
       {
         name: "Stomach Infection",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1:Monitor the monkey for signs of a stomach infection, such as changes in appetite, diarrhea, vomiting, lethargy, or abdominal discomfort.",
+        "Step 2: If the monkey lives in a group, consider isolating the affected individual to prevent the potential spread of infection. Ensure the monkey has access to clean and fresh water to prevent dehydration. ",
+        "Step 3: If the monkey is experiencing diarrhea, take precautions to isolate and dispose of feces properly to prevent the spread of infection.",
+        "Step 4: Practice good hygiene when handling the monkey, and wash hands thoroughly before and after any contact. Minimize stressors, such as loud noises or frequent handling, to help the monkey recover.",
+        "Step 5: Refrain from feeding the monkey without proper guidance. Monkeys have specific dietary needs that are challenging to replicate without expert knowledge."]
       },
     ]
   },
@@ -311,38 +321,35 @@ export const animalData = {
     problems: [
       {
         name: "Broken Bone",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Ensure the safety of both the elephant and anyone nearby by securing the area. Keep bystanders and other animals at a safe distance.",
+        "Step 2: Limit the elephant's movement as much as possible. Restricting its mobility helps prevent further injury and reduces the risk of aggravating the broken bone.",
+        "Step 3: Keep the elephant as calm and stress-free as possible. Reducing stress can help in managing pain and preventing additional complications.",
+        "Step 4: Contact a veterinarian with experience in treating large animals, particularly elephants. Emergency veterinary services may be required.",]
       },
       {
         name: "Skin Problem",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: If the skin problem is suspected to be contagious, isolate the elephant from other elephants to prevent the potential spread of the issue.",
+        "Step 2: If the skin problem involves wounds or lesions, gently clean the affected areas with a mild antiseptic solution, as recommended by a veterinarian. ",
+        "Step 3: Avoid using harsh chemicals, soaps, or substances that could potentially worsen the skin problem or cause irritation.",
+        "Step 4: Ensure the elephant has access to shade and a comfortable environment. Environmental stressors can impact skin health.",
+        "Step 5: Observe the elephant for signs of discomfort, including changes in behavior, decreased appetite, or increased aggression. Report any concerning observations to the veterinarian.",
+        "Step 6: Refrain from applying any medications or ointments to the elephant's skin without guidance from a veterinarian. Some substances may be harmful or inappropriate for elephant skin."]
       },
       {
         name: "Wounded",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Elephants are wild animals and can be unpredictable, especially if they are injured or in pain. Maintain a safe distance to avoid further stressing the animal or putting yourself at risk.",
+        "Step 2: Assess the elephant's condition from a distance. Note any signs of distress, bleeding, or visible injuries. Refrain from approaching the wounded elephant. Wild elephants may perceive humans as a threat, and a wounded animal may be more agitated or defensive.",
+        "Step 3: Call local wildlife authorities, conservation organizations, or a wildlife veterinarian to report the injured elephant. Provide them with as much information as possible about the elephant's location and condition.",]
       },
-      {
-        name: "New Born",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
-      },
+
       {
         name: "Stomach Infection",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: If possible, isolate the elephant from other animals to prevent the spread of infection.",
+        "Step 2: Immediately contact a veterinarian who specializes in large animals and, preferably, elephants. Provide them with detailed information about the elephant's symptoms and behavior.",
+        "Step 3: Ensure the elephant has access to clean, fresh water. Hydration is crucial for the overall well-being of the animal.",
+        "Step 4: Do not administer any medications without the explicit guidance of a veterinarian. The anatomy and physiology of elephants are unique, and medications suitable for other animals may not be appropriate.",
+        "Step 5: If the elephant's condition requires transportation to a veterinary facility, ensure that the transport vehicle is suitable for large animals and that the journey is as stress-free as possible.",
+        "Step 6: Comply with the veterinarian's instructions regarding medication, treatment, and care. Follow-up appointments and ongoing monitoring may be necessary."]
       },
     ]
   },
@@ -351,38 +358,26 @@ export const animalData = {
     problems: [
       {
         name: "Broken Bone",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Assess the pig's overall condition and the severity of the injury from a safe distance. Be cautious, as injured pigs can be stressed and may act defensively.",
+        "Step 2: Minimize the pig's movement to prevent further injury. If possible, confine the pig in a safe and quiet area.",
+        "Step 3: Keep the environment calm and quiet to reduce stress on the injured pig. Stress can exacerbate the animal's condition.",
+        "Step 4: Do not attempt to set the broken bone unless you have specific training in veterinary care. Incorrectly manipulating the bone can lead to additional harm.",]
       },
-      {
-        name: "Skin Problem",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
-      },
+
       {
         name: "Wounded",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Ensure your safety and the safety of others. Pigs can be strong and unpredictable. If the pig is distressed or in pain, approach with caution.",
+        "Step 2: Carefully examine the wound to assess its severity. Look for signs of bleeding, infection, or foreign objects. ",
+        "Step 3: If there is active bleeding, apply gentle pressure with a clean cloth or bandage to control it. Elevate the wounded area if possible, but avoid causing additional stress to the pig.",
+        "Step 4: Clean the wound with a mild antiseptic solution, such as diluted chlorhexidine or saline solution.",]
       },
-      {
-        name: "New Born",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
-      },
+
       {
         name: "Stomach Infection",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Separate the affected pig from the rest of the herd to prevent the potential spread of infection.",
+        "Step 2: Monitor the pig for symptoms of a stomach infection, such as changes in appetite, lethargy, diarrhea, or vomiting. ",
+        "Step 3: Ensure the pig has access to clean, fresh water at all times. Dehydration is a common concern with stomach infections.",
+        "Step 4: Seek immediate veterinary attention for a proper diagnosis. Only a veterinarian can accurately determine the cause of the stomach infection and recommend appropriate treatment.",]
       },
     ]
   },
@@ -391,79 +386,51 @@ export const animalData = {
     problems: [
       {
         name: "Broken Bone",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Approach the rabbit calmly and quietly. Stress can exacerbate the situation.",
+        "Step 2: Keep the rabbit as still as possible to prevent further injury. If the rabbit is in a location where it could move around and worsen the injury, try to gently confine it to a small, safe area.",
+        "Step 3: Approach the rabbit gently and avoid putting pressure on the injured area. Use a towel or blanket to carefully pick up the rabbit, supporting its body and minimizing movement.",
+        "Step 4:If you can identify the broken limb, consider immobilizing it. You can use a splint or wrap soft padding (such as cotton or gauze) around the limb to stabilize it.",]
       },
       {
         name: "Skin Problem",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: If you have multiple rabbits, consider isolating the one with the skin problem to prevent potential spread.",
+        "Step 2: Take note of any specific symptoms such as hair loss, redness, swelling, lesions, or changes in behavior. ",
+        "Step 3: Keep the rabbit's living area clean and dry. Remove any soiled bedding and ensure good hygiene to prevent the exacerbation of skin issues.",
+        "Step 4: Do not attempt to apply over-the-counter medications without consulting a veterinarian. Rabbits have sensitive skin, and some substances may be harmful.",]
       },
       {
         name: "Wounded",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
-      },
-      {
-        name: "New Born",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
-      },
-      {
-        name: "Stomach Infection",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
-      },
+        content: ["Step 1: Approach the rabbit calmly and speak softly to avoid causing additional stress.",
+        "Step 2: If the rabbit is frightened or in pain, you may need to carefully and gently restrain it to prevent further injury. Be cautious not to cause additional stress.",
+        "Step 3: Examine the wound visually, but avoid touching or probing it excessively, as this may cause further distress.",
+        "Step 4: If there is bleeding, try to control it by applying gentle pressure with a clean cloth or sterile gauze. Be careful not to cause additional trauma.",]
+      }
     ]
   },
 
   Squirrel: {
-    problems: [
+    problems:[
       {
         name: "Broken Bone",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: Approach the Squirrel calmly and quietly. Stress can exacerbate the situation.",
+        "Step 2: Keep the Squirrel as still as possible to prevent further injury. If the Squirrel is in a location where it could move around and worsen the injury, try to gently confine it to a small, safe area.",
+        "Step 3: Approach the Squirrel gently and avoid putting pressure on the injured area. Use a towel or blanket to carefully pick up the Squirrel, supporting its body and minimizing movement.",
+        "Step 4:If you can identify the broken limb, consider immobilizing it. You can use a splint or wrap soft padding (such as cotton or gauze) around the limb to stabilize it.",]
       },
       {
         name: "Skin Problem",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
+        content: ["Step 1: If you have multiple Squirrels, consider isolating the one with the skin problem to prevent potential spread.",
+        "Step 2: Take note of any specific symptoms such as hair loss, redness, swelling, lesions, or changes in behavior. ",
+        "Step 3: Keep the Squirrel's living area clean and dry. Remove any soiled bedding and ensure good hygiene to prevent the exacerbation of skin issues.",
+        "Step 4: Do not attempt to apply over-the-counter medications without consulting a veterinarian. Squirrels have sensitive skin, and some substances may be harmful.",]
       },
       {
         name: "Wounded",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
-      },
-      {
-        name: "New Born",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
-      },
-      {
-        name: "Stomach Infection",
-        content: ["Step 1: Ensure Safety: Approach the dog calmly and avoid sudden movements to prevent further distress. Use a muzzle if necessary to prevent the dog from biting in pain, but be cautious not to restrict its ability to breathe or open its mouth.",
-        "Step 2: Assess the Situation: Examine the dog's body carefully, but avoid causing additional pain or injury. Look for signs of a broken bone, such as swelling, deformity, or the dog's unwillingness to put weight on a limb. Keep in mind that some fractures may not be obvious, and it's essential to rely on a veterinarian's expertise. ",
-        "Step 3: Immobilize the affected area with a splint if possible.",
-        "Step 4: Seek veterinary help immediately.",]
-      },
+        content: ["Step 1: Approach the Squirrel calmly and speak softly to avoid causing additional stress.",
+        "Step 2: If the Squirrel is frightened or in pain, you may need to carefully and gently restrain it to prevent further injury. Be cautious not to cause additional stress.",
+        "Step 3: Examine the wound visually, but avoid touching or probing it excessively, as this may cause further distress.",
+        "Step 4: If there is bleeding, try to control it by applying gentle pressure with a clean cloth or sterile gauze. Be careful not to cause additional trauma.",]
+      }
     ]
   },
 }
