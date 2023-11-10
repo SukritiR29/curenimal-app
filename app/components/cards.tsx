@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { animalData } from "@/data";
 import AnimalData from "./AnimalData";
 
+
 interface Props {
   onButtonClicked: (animal: string, problem: string) => void;
 }

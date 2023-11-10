@@ -17,8 +17,12 @@ interface AnimalDataProps {
 }
 
 const AnimalData: React.FC<AnimalDataProps> = ({ selectAnimal, selectProblem, data }) => {
+
+
   const animalProblems = data[selectAnimal]?.problems;
   const selectedProblem = animalProblems?.find((problem) => problem.name === selectProblem);
+
+  console.log(selectProblem)
 
   const backgroundImageUrl = 'url("/assests/signup.png")';
 
@@ -30,10 +34,10 @@ const AnimalData: React.FC<AnimalDataProps> = ({ selectAnimal, selectProblem, da
     <div>
       <div className="card card-side flex items-center justify-center shadow-xl w-90 ml-20 mr-20" style={{ backgroundImage: backgroundImageUrl, zIndex: 0 }}>
         <div className="card-body w-1/2 flex items-center justify-center mb-20">
-          <h2 className="card-title text-white">Selected Animal: {selectAnimal}</h2>
-          <h2 className="card-title text-white">Selected Problem: {selectProblem}</h2>
+          <h2 className="card-title text-white">Animal: {selectAnimal}</h2>
+          <h2 className="card-title text-white">Problem: {selectProblem}</h2>
           <p className="text-white">
-            Data:
+            Solution:
             <br />
             {selectedProblem.content.map((point, index) => (
               <span key={index}>
