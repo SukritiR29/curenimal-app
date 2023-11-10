@@ -20,7 +20,7 @@ const LostFound = () => {
     <div  className="hero min-h-screen" style={{ backgroundImage: backgroundImageUrl }}>
     <div className='hero-overlay bg-gradient-to-b from-neutral from-5%'>
        <h1 className='pt-2 pb-2 font-mono font-black text-3xl align-center text-base-100 text-center'>LOST AND FOUND</h1>
-       <h1 className='font-semibold font-mono text-xl align-center text-primary text-center'>Report pictures of lost, found or up for adoption pets. <br/> Make sure to enter your contact details to help the helper reach you.</h1>
+       <h1 className='font-semibold font-mono text-xl align-center text-primary text-center '>Report pictures of lost, found or up for adoption pets. <br/> Make sure to enter your contact details to help the helper reach you.</h1>
        <div className='flex justify-center pt-8'>
       
        </div>

@@ -32,12 +32,12 @@ const AnimalData: React.FC<AnimalDataProps> = ({ selectAnimal, selectProblem, da
 
   return (
     <div>
-      <div className="card card-side flex items-center justify-center shadow-xl w-90 ml-20 mr-20" style={{ backgroundImage: backgroundImageUrl, zIndex: 0 }}>
-        <div className="card-body w-1/2 flex items-center justify-center mb-20">
+      <div className="card card-side flex items-center justify-center shadow-xl w-90 ml-10 mr-10 lg:mr-20 lg:ml-20" style={{ backgroundImage: backgroundImageUrl, zIndex: 0 }}>
+        <div className="card-body w-1/2 md:w-max flex items-center justify-center mb-20">
           <h2 className="card-title text-white">Animal: {selectAnimal}</h2>
           <h2 className="card-title text-white">Problem: {selectProblem}</h2>
           <p className="text-white">
-            Solution:
+            Data:
             <br />
             {selectedProblem.content.map((point, index) => (
               <span key={index}>

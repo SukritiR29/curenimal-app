@@ -21,9 +21,9 @@ const page: React.FC = () => {
     
   return (
     <div>
-     <div className='bg-base-100'>
-        <h1 className='pt-2 pb-2 font-mono font-black text-3xl align-center text-accent text-center'>YOU CAN'T BUY LOVE,</h1>
-        <h1 className='font-semibold font-mono text-3xl align-center text-accent text-center'>BUT YOU CAN <b className='text-red text-3xl'>RESCUE</b> IT!</h1>
+     <div className='bg-base-100 lg:w-100 '>
+        <h1 className='pt-2 pb-2 font-mono font-black text-3xl align-center md:text-3xl text-accent text-center'>YOU CAN'T BUY LOVE,</h1>
+        <h1 className='font-semibold font-mono text-3xl align-center text-accent text-center'>BUT YOU CAN <b className='text-red-900 text-3xl'>RESCUE</b> IT!</h1>
         <div className='flex justify-center pt-8'>
        
         </div>

@@ -45,15 +45,15 @@ const ImageUpload = () => {
   };
 
   return (
-    <div className='flex gap-5 flex-column'>
+    <div className='lg:flex gap-5 flex-column'>
       {/* <h1 className='pt-2 font-mono font-black text-lg align-center text-stone-100 ml-10'>Upload Picture</h1> */}
-      <form onSubmit={handleUpload} className="flex flex-row">
-        <div className="flex items-center">
+      <form onSubmit={handleUpload} className="lg:flex lg:flex-row">
+        <div className="lg:flex items-center mb-5 ">
         <input placeholder='Select Picture'
         className="file-input file-input-bordered file-input-accent w-full max-w-xs text-stone-500 ml-10" 
          type="file" onChange={(e) => setPicSelected(e.target.files[0])}/>
          </div>
-         <div className="flex items-center">
+         <div className="flex items-center mb-5">
         <textarea value={caption} 
         onChange={(e) => setCaption(e.target.value)} 
         placeholder='Caption'

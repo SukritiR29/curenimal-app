@@ -12,7 +12,7 @@ export default function Home() {
     <div className="hero-content text-center text-neutral-content">
       <div className="max-w-md">
         <h1 className="mb-5 text-5xl font-bold text-white">CureNimal</h1>
-        <p className="mb-5 text-white">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
+        <p className="mb-5 text-white">Welcome to our compassionate community dedicated to the well-being of our furry friends! </p>
         <Link href="/help">
         <button className="btn btn-secondary text-base-100-focus mr-5">Help now</button>
         </Link>

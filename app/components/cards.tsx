@@ -54,7 +54,7 @@ const Cards: React.FC<Props> = ({ onButtonClicked }) => {
         ))}
       </div>
 
-      <div className="mt-0 z-10">
+      <div className="mt-0 z-10 md:w-100">
 
 {selectAnimal && selectProblem && (
   <AnimalData
