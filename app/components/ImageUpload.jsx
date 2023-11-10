@@ -15,7 +15,7 @@ const ImageUpload = () => {
       const storage = getStorage();
       const storageRef = ref(storage, `images/${picSelected.name}`);
       const uploadTask = uploadBytesResumable(storageRef, picSelected);
-      
+      const imageCollectionRef = collection(db, 'images');
       
       uploadTask.on('state_changed',
       (snapshot) => {
