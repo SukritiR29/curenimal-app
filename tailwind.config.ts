@@ -4,7 +4,7 @@ const config: Config = {
   plugins: [require("daisyui")],
 
   daisyui: {
-    themes: ["light", "dark", "retro"],
+    themes: ["retro"],
   },
 
   content: [
