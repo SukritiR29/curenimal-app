@@ -21,7 +21,7 @@ export default function RootLayout({
                 <summary className="hover:text-primary">
                     More
                 </summary>
-                <ul className="p-1 indent-1">
+                <ul className="p-1 indent-1 text-neutral">
                     <li><Link href="/lostFound">Report_Missing</Link></li>
                     <li><Link href='/hospital'>Hospital</Link></li>
                 </ul>
