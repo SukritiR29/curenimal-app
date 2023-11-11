@@ -1,11 +1,14 @@
 import React from 'react';
 import Link from 'next/link';
 
+
+//Problem interface to represent a problem associated with an animal
 interface Problem {
   name: string;
   content: string[];
 }
 
+// Define the props interface for the AnimalData component
 interface AnimalDataProps {
   selectAnimal: string;
   selectProblem: string;
@@ -19,13 +22,16 @@ interface AnimalDataProps {
 const AnimalData: React.FC<AnimalDataProps> = ({ selectAnimal, selectProblem, data }) => {
 
 
+// Get the list of problems for the selected animal
   const animalProblems = data[selectAnimal]?.problems;
+
+  // Find the selected problem from the list
   const selectedProblem = animalProblems?.find((problem) => problem.name === selectProblem);
 
-  console.log(selectProblem)
 
   const backgroundImageUrl = 'url("/assests/signup.png")';
 
+  //display error is problem not found
   if (!selectedProblem) {
     return <div>Animal or problem not found.</div>;
   }
@@ -36,9 +42,11 @@ const AnimalData: React.FC<AnimalDataProps> = ({ selectAnimal, selectProblem, da
         <div className="card-body w-1/2 md:w-max flex items-center justify-center mb-20">
           <h2 className="card-title text-white">Animal: {selectAnimal}</h2>
           <h2 className="card-title text-white">Problem: {selectProblem}</h2>
+          {/* Display the content of the selected problem */}
           <p className="text-white">
             Data:
             <br />
+             {/* Map through and display each point of content in the selected problem */}
             {selectedProblem.content.map((point, index) => (
               <span key={index}>
                 {point}

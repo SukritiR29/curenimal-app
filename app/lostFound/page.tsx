@@ -10,9 +10,13 @@ const LostFound = () => {
 
     const router = useRouter();
 
+
+    //useEffect hook to check the presence of the email id in local storage
     useEffect(() => {
         const storeEmail = localStorage.getItem('email')
         if(!storeEmail) {
+
+            //redirect is email not present
             router.push('/FirebaseLogin')
         }
     }, [])

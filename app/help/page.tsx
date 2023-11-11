@@ -1,21 +1,18 @@
 "use client";
 import React from 'react'
-import Link from 'next/link'
 import Cards from '../components/cards'
 import { useState, useRef } from 'react'
 
 
 const page: React.FC = () => {
  
+  
+  // setting variable and its updater funtion for FirstAid data
   const [showFirstAid, setShowFirstAid] = useState(false);
-  const showFirstAidRef = useRef<HTMLDivElement>(null);
 
+  //Event handler function to handle the click event on the button
   const handleFirstAid = () => {
     setShowFirstAid(true)
-
-    if (showFirstAidRef.current) {
-      showFirstAidRef.current.scrollIntoView({ behavior: 'smooth' });
-    }
   }
 
     

@@ -4,36 +4,45 @@ import { auth, provider } from '@/firebaseConfig';
 import { GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import ImageUpload from '../components/ImageUpload';
+
 
 const Signin = () => {
+
+  //variable and its updater for user email
   const [value, setValue] = useState('');
   const router = useRouter();
 
+
+  // function to handle signin
   const handleSignIn = () => {
-    signInWithPopup(auth, provider)
+    signInWithPopup(auth, provider) //imported above
       .then((data) => {
         if (data.user?.email) {
-          localStorage.setItem('email', data.user.email);
-          setValue(data.user.email);
+          localStorage.setItem('email', data.user.email); //store email in local storage
+          setValue(data.user.email); //update the value to user email
           router.push('/lostFound'); // Redirect to the 'LostFound' page if authenticated
         } else {
           setValue('');
         }
 
+         // Extract credentials and token information if needed
         const credentials = GoogleAuthProvider.credentialFromResult(data);
-        const token = credentials?.accessToken;
-        const user = data.user;
+
+        // defined for potential use in future
+        const token = credentials?.accessToken; //to access certain APIs 
+        const user = data.user; // to display users info like profile pic
       })
       .catch((error) => {
         console.error('Error signing in:', error);
       });
   };
 
+
+  // useEffect to check if email is already in local storage
   useEffect(() => {
     const storedEmail = localStorage.getItem('email');
     if (storedEmail) {
-      setValue(storedEmail);
+      setValue(storedEmail); // Extract credentials and token information if needed
       router.push('/lostFound'); // Redirect to the 'LostFound' page if email is stored
     }
   }, [router]);
