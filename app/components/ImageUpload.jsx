@@ -1,3 +1,5 @@
+// package-lock.json issue, using JS instead of TS to fix.
+
 import React, { useState, useEffect } from 'react';
 import {
   getStorage,

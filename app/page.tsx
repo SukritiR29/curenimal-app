@@ -1,10 +1,25 @@
 "use client"
 import Link from 'next/link';
+import { useEffect } from 'react';
 
 
 
 export default function Home() {
 
+  useEffect(() => {
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('/service-worker.js').then(
+        function (registration) {
+          console.log('Service Worker registration successful with scope: ', registration.scope);
+        },
+        function (err) {
+          console.log('Service Worker registration failed: ', err);
+        }
+      );
+    }
+  }, []);
+
+  
   const backgroundImageUrl = 'url("/assests/curenimalbg.png")';
   return (
   <div className="hero min-h-screen" style={{ backgroundImage: backgroundImageUrl }}>
