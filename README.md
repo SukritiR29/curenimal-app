@@ -37,4 +37,4 @@ Curenimal is a comprehensive full-stack application designed to address the need
 ## Usage
 Visit the [Curenimal Website](https://curenimal-app.vercel.app/)
 
-###Happy Helping!!!
+Happy Helping!!!
