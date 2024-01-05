@@ -1,34 +1,27 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Curenimal - “Cure Animal”
 
-## Getting Started
+Welcome to our compassionate community dedicated to the well-being of our furry friends! 
+Curenimal is a project that believes every animal deserves love, care, and a helping hand. The mission is to provide swift and certified treatment to stray and pet animals, ensuring they receive the care they deserve.
+The project was initially made as a solution to a problem statement at Google Solution Challenge ‘22. Since then it has been modified in terms of technology, working, and interface.
 
-First, run the development server:
+Features:
+User Login System: The project incorporates a secure user login system facilitated by Firebase authentication. Users can sign in using various methods, including Google providers. A popover design ensures a user-friendly login experience.
+Help Feature: This feature focuses on delivering prompt and effective treatment to animals in need. Users can report cases, and the system ensures a swift response to address the animals' health concerns.
+Hospital Feature: Users can access a list of animal hospitals, enhancing their ability to seek professional care for their pets. (Please note due to the restricted access of actual data as a student, an API providing a list of random hospitals have been used instead. I plan on integrating actual data once the project grows.)
+Lost and Found Feature: Users can upload pictures and information about missing pets or report animals found or up for adoption. This data serves as a valuable resource for agencies and NGOs involved in animal welfare.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Structure and Tech-stack:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+The project is a comprehensive full-stack application designed to address the needs of stray and pet animals. Leveraging modern web technologies, I have created a user-friendly platform with a range of features to provide prompt treatment, connect users with animal hospitals, and facilitate the process of reuniting lost pets or finding suitable homes through adoption.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+Technology Stack:
+Frontend Framework: NextJS and React were chosen as the frontend frameworks, offering a robust and efficient development environment.
+Backend: Firebase is utilized for both the database and authentication services. Firebase's real-time database ensures quick data retrieval and storage, while the authentication system provides a secure and reliable user login experience.
+API Integrations: The project integrates with the Rapid API to fetch real-time data about animal hospitals. This enhances the accuracy and relevance of information provided to users.
+UI Component Library: DaisyUI enhances the visual appeal and functionality of the user interface, contributing to a seamless and responsive design.
+Programming Languages: Typescript is employed for its static typing, enabling a more structured and scalable codebase. Additionally, JavaScript is used to enhance functionality and interactivity.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Happy helping!!!
